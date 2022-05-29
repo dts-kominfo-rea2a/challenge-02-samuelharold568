@@ -44,7 +44,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahWanita = null;
     for(let wanita of arrPegawai) {
-      if(wanita.jenisKelamin == 'M') {
+      if(wanita.jenisKelamin == 'F') {
         jumlahWanita++;
       }
     }
