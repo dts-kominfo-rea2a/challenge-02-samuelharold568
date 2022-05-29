@@ -63,9 +63,9 @@ function lakukanLooping(arrPegawai) {
     for(let i of arrPegawai) {
       if((i.jenisKelamin == 'M') > (i.jenisKelamin == 'F')) {
         komentar = console.log("Jumlah Pria lebih banyak dari Wanita");
-      } else if ((i.jenisKelamin == 'F') > (i.jenisKelamin == 'M')) {
+      } else if ((i.jenisKelamin == 'M') < (i.jenisKelamin == 'F')) {
         komentar = console.log("Jumlah Wanita lebih banyak dari Pria");
-      } else if ((i.jenisKelamin == 'F') == (i.jenisKelamin == 'M')) {
+      } else if ((i.jenisKelamin == 'M') == (i.jenisKelamin == 'F')) {
         komentar = console.log("Jumlah Pria dan Wanita berimbang");
       }
     }
