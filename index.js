@@ -62,11 +62,11 @@ function lakukanLooping(arrPegawai) {
   let komentar = null;
     for(let i of arrPegawai) {
       if((i.jenisKelamin == 'M') > (i.jenisKelamin == 'F')) {
-        komentar = console.log("Jumlah Pria lebih banyak dari Wanita");
+        komentar = "Jumlah Pria lebih banyak dari Wanita";
       } else if ((i.jenisKelamin == 'M') < (i.jenisKelamin == 'F')) {
-        komentar = console.log("Jumlah Wanita lebih banyak dari Pria");
+        komentar = "Jumlah Wanita lebih banyak dari Pria";
       } else if ((i.jenisKelamin == 'M') == (i.jenisKelamin == 'F')) {
-        komentar = console.log("Jumlah Pria dan Wanita berimbang");
+        komentar = "Jumlah Pria dan Wanita berimbang";
       }
     }
   // ! JANGAN DIMODIFIKASI
